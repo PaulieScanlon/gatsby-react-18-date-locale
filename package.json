@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-react-18-date-locale",
+  "version": "1.0.0",
+  "description": "A demo repo for React 425 Error: Text content does not match server-rendered HTML",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/gatsby-react-18-date-locale.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/gatsby-react-18-date-locale/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/gatsby-react-18-date-locale#readme",
+  "dependencies": {
+    "gatsby": "^4.24.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
