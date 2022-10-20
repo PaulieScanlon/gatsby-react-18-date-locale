@@ -1,10 +1,14 @@
 import React from 'react';
 
+import { useHydrationSafeDate } from '../hooks/use-hydration-safe-date';
+
 const Page = () => {
+  const date = useHydrationSafeDate(new Date());
+
   return (
     <main>
       <h1>Page</h1>
-      <time>{new Date().toLocaleDateString()}</time>
+      <time>{date}</time>
     </main>
   );
 };
