@@ -1,12 +1,12 @@
-import React, { Suspense } from 'react';
+import React, { useRef } from 'react';
 
 const Page = () => {
+  const time = useRef(null);
+
   return (
     <main>
       <h1>Page</h1>
-      <time>
-        <Suspense fallback={null}>{new Date().toLocaleDateString()}</Suspense>
-      </time>
+      <time ref={time}>{time ? new Date().toLocaleDateString() : null}</time>
     </main>
   );
 };
