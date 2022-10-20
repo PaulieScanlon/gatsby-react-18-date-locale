@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { useSafeDate } from '../hooks/use-safe-date';
+import { useHydrationSafeDate } from '../hooks/use-hydration-safe-date';
 
 const Page = () => {
-  const date = useSafeDate(new Date());
+  const date = useHydrationSafeDate(new Date());
 
   return (
     <main>
