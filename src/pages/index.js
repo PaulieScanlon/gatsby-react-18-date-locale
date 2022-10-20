@@ -1,12 +1,10 @@
-import React, { useRef } from 'react';
+import React from 'react';
 
 const Page = () => {
-  const time = useRef(null);
-
   return (
     <main>
       <h1>Page</h1>
-      <time ref={time}>{time ? new Date().toLocaleDateString() : null}</time>
+      <time>{new Intl.DateTimeFormat(undefined, { dateStyle: 'short', timeStyle: 'short' }).format().split(',')[0]}</time>
     </main>
   );
 };
