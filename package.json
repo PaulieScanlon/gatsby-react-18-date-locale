@@ -23,6 +23,8 @@
   "homepage": "https://github.com/PaulieScanlon/gatsby-react-18-date-locale#readme",
   "dependencies": {
     "gatsby": "^4.24.4",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-remark": "^5.24.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
